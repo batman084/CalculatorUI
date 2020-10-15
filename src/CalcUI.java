@@ -26,6 +26,5 @@ public class CalcUI {
         // TODO: place custom component creation code here
     }
 
-
     //bruh
 }
