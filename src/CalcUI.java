@@ -1,30 +1,46 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class CalcUI {
     private JPanel panel1;
-    private JButton a0Button;
-    private JButton button2;
-    private JButton a2Button;
-    private JButton a1Button;
-    private JButton a5Button;
-    private JButton a4Button;
-    private JButton a8Button;
-    private JButton a7Button;
-    private JButton a9Button;
+    private JButton Num0;
+    private JButton Decimal;
+    private JButton Num2;
+    private JButton Num1;
+    private JButton Num8;
+    private JButton Num7;
+    private JButton Num9;
 
-    private JButton a6Button;
-    private JButton a3Button;
-    private JButton button12;
-    private JButton button1;
-    private JButton button3;
-    private JButton xButton;
-    private JButton button5;
+    private JButton Num3;
+    private JButton Equals;
+    private JButton Add;
+    private JButton Multiply;
+    private JButton Divide;
 
-    private JTextArea bruhTextArea;
+    private JTextArea TextArea;
+    private JButton Num4;
+    private JButton Num5;
+    private JButton Num6;
+    private JButton button4;
+    private JButton Clear;
+
+    public CalcUI() {
+        Num7.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
     }
 
-    //bruh
+    public static void main (String[] args) {
+        JFrame frame = new JFrame("CalcUI");
+        frame.setVisible(true);
+
+    }
 }
